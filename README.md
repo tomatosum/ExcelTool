@@ -7,9 +7,10 @@ Excelブックからマクロをエクスポートしたりインポートした
 ### xlsxにマクロをインポート
 
 src以下にベースとなるxlsxファイルとvbファイル(bas,frm,cls)を配置
-> src
->     clsHoge.bas
->     clsPiyo.bas
+
+> src  
+>     clsHoge.bas  
+>     clsPiyo.bas  
 >     test.xlsx
 
 コマンドを実行
@@ -20,19 +21,19 @@ src以下にベースとなるxlsxファイルとvbファイル(bas,frm,cls)を�
 
 outputDirに指定したディレクトリにtest.xlsmが出力される
 
-> out
->     test.xlsm
-> src
->     clsHoge.bas
->     clsPiyo.bas
->     test.xlsx
+> out  
+>     test.xlsm  
+> src  
+>     clsHoge.bas  
+>     clsPiyo.bas  
+>     test.xlsx  
 
 ### xlsmからマクロをエクスポート
 
 src以下にベースとなるxlsmファイルを配置
 
-> src
->     test.xlsm
+> src  
+>     test.xlsm  
 
 コマンドを実行
 
@@ -42,19 +43,19 @@ src以下にベースとなるxlsmファイルを配置
 
 outputDirに指定したディレクトリにtest.xlsxとvbファイル(bas,frm,cls)が出力される
 
-> out
->     clsHoge.bas
->     clsPiyo.bas
->     test.xlsx
-> src
->     test.xlsm
+> out  
+>     clsHoge.bas  
+>     clsPiyo.bas  
+>     test.xlsx  
+> src  
+>     test.xlsm  
 
 ### xlsmからマクロをリムーブ
 
 src以下にベースとなるxlsmファイルを配置
 
-> src
->     test.xlsm
+> src  
+>     test.xlsm  
 
 コマンドを実行
 
@@ -64,9 +65,9 @@ src以下にベースとなるxlsmファイルを配置
 
 outputDirに指定したディレクトリにtest.xlsxが出力される
 
-> out
->     test.xlsx
-> src
+> out  
+>     test.xlsx  
+> src  
 >     test.xlsm
 
 ## TODO
